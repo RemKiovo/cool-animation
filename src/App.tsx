@@ -5,7 +5,7 @@ const App = () => {
   const comp = useRef(null)
 
   useLayoutEffect(() => {
-    const ctx = gsap.context((self) => {
+    const ctx = gsap.context(() => {
       const t1 = gsap.timeline()
       const t2 = gsap.timeline()
 
