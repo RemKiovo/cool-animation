@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #fff;
+    --text-color: #060216;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #060216;
+      --text-color: #fff;
+    }
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-color);
+  }
+}
